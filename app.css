@@ -1,4 +1,4 @@
-/*Section1: */
+/*Section1: Styles the calculator container, setting border, padding, display, width, and border radius properties*/
 .calculator {
     border: 2px solid grey;
     padding: 10px;
@@ -7,7 +7,7 @@
     border-radius: 2px;
 }
 
-/*Section2: */
+/*Section2: Styles the result display area within the calculator, setting border, margin, border radius, padding, height, display, and alignment properties*/
 .result {
     border: 1px solid grey;
     margin-bottom: 10px;
@@ -18,14 +18,14 @@
     align-items: center;
 }
 
-/*Section3: */
+/*Section3: Styles the text within the result display, setting font size, weight, and family properties.*/
 .result-text {
     font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Section4: */
+/*Section4: Styles the rows of buttons within the calculator, setting display, height, gap, and margin properties*/
 .row {
     display: flex;
     height: 30px;
@@ -33,40 +33,40 @@
     margin-top: 10px;
 }
 
-/*Section5: */
+/*Section5: Styles the buttons within the calculator, setting flex, background color, and border properties*/
 .btn {
     flex: 1;
     background-color: gainsboro;
     border: 1px solid grey;
 }
 
-/*Section6: */
+/*Section6: Styles the buttons with a grey background color, overriding the default button styles*/
 .grey button {
     background-color: darkgray;
 }
 
-/*Section7: */
+/*Section7: Styles the buttons when hovered over, adjusting opacity to 80%*/
 .btn:hover {
     opacity: 80%;
 }
 
-/*Section8: */
+/*Section8: Styles the buttons when activated (clicked), changing the background color to pink.*/
 .btn:active {
     background-color: pink;
 }
 
-/*Section9: */
+/*Section9: Styles the main button container within the calculator, setting display and gap properties*/
 .main-btns {
     display: flex;
     gap: 5px;
 }
 
-/*Section10: */
+/*Section10: Styles the numeric button container within the calculator, setting flex property to take up more space compared to other button containers*/
 .numbers {
     flex: 6;
 }
 
-/*Section11: */
+/*Section11: Styles the equals button within the calculator, setting flex property to distribute remaining space and margin-top property to add space above the button*/
 .equal-btn {
     flex: 1;
     margin-top: 10px;
