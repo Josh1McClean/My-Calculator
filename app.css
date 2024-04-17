@@ -30,18 +30,44 @@
     display: flex;
     height: 30px;
     gap: 5px;
+    margin-top: 10px;
 }
 
+/*Section5: */
 .btn {
     flex: 1;
     background-color: gainsboro;
     border: 1px solid grey;
 }
 
+/*Section6: */
 .grey button {
     background-color: darkgray;
 }
 
+/*Section7: */
+.btn:hover {
+    opacity: 80%;
+}
+
+/*Section8: */
 .btn:active {
-    background-color: slategray;
+    background-color: pink;
+}
+
+/*Section9: */
+.main-btns {
+    display: flex;
+    gap: 5px;
+}
+
+/*Section10: */
+.numbers {
+    flex: 6;
+}
+
+/*Section11: */
+.equal-btn {
+    flex: 1;
+    margin-top: 10px;
 }
